@@ -6,3 +6,26 @@
 # In your final submission: 
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+################################################################################
+
+def cumulative_sum(list_):
+	c_sum = []
+	total = 0
+
+	for num in list_:
+		total += num
+		c_sum.append(total)
+
+	return c_sum
+
+
+
+################################################################################
+def main():
+
+
+    pass
+
+if __name__ == '__main__':
+    main()

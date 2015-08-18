@@ -5,3 +5,26 @@
 # In your final submission: 
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+################################################################################
+
+def capitalize_nested(list_, new = []):
+	for entries in list_:
+		if type(entries) == list:
+			new = (capitalize_nested(entries))
+		else:
+			new.append(entries.capitalize())
+
+	return new
+
+
+
+
+################################################################################
+def main():
+
+
+    pass
+
+if __name__ == '__main__':
+    main()
